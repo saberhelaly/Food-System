@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إضافة صنف جديد</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>إضافة صنف جديد</h1>
+        <form id="add-item-form" enctype="multipart/form-data">
+            <label for="name">اسم الصنف</label>
+            <input type="text" id="name" name="name" required>
+            <label for="price">السعر</label>
+            <input type="number" id="price" name="price" required>
+            <label for="image">صورة الصنف</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <button type="submit">إضافة</button>
+        </form>
+    </div>
+    <script src="addItem.js"></script>
+</body>
+</html>

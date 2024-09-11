@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق مطعم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>اكلات مصرية بمراكش</h1>
+        <h2>طلب جديد</h2>
+        <label for="customer-name">اسم العميل</label>
+        <input type="text" id="customer-name" name="customer-name" required>
+        <label for="customer-phone">رقم التليفون</label>
+        <input type="text" id="customer-phone" name="customer-phone" required>
+        <h3>قائمة الأصناف</h3>
+        <ul id="items-list"></ul>
+        <h3>تفاصيل الطلب</h3>
+        <ul id="order-details"></ul>
+        <button onclick="submitOrder()">إرسال الطلب</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

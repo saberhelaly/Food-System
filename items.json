@@ -1,0 +1,17 @@
+[
+  {
+    "name": "صنف 1",
+    "price": 10,
+    "image": "/uploads/image1.jpg"
+  },
+  {
+    "name": "صنف 2",
+    "price": 15,
+    "image": "/uploads/image2.jpg"
+  },
+  {
+    "name": "سمك ملوك",
+    "price": "50",
+    "image": "/uploads/cc0e4f5980794832883a6162f53db369"
+  }
+]

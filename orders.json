@@ -1,0 +1,18 @@
+[
+  {
+    "customerName": "Saber Mohamad Hassab",
+    "customerPhone": "766634918",
+    "items": [
+      {
+        "name": "صنف 1",
+        "price": 10,
+        "quantity": 12
+      },
+      {
+        "name": "صنف 2",
+        "price": 15,
+        "quantity": 12
+      }
+    ]
+  }
+]
